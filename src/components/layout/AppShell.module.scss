@@ -1,0 +1,7 @@
+.appShell { display: flex; flex-direction: column; height: 100vh; width: 100vw; overflow: hidden; }
+.chrome { position: absolute; top: 0; left: 0; right: 0; z-index: var(--z-chrome); padding: var(--space-4) var(--space-6); display: flex; align-items: center; justify-content: space-between; pointer-events: none; }
+.chromeLeft, .chromeCenter, .chromeRight { pointer-events: auto; display: flex; align-items: center; }
+.chromeCenter { position: absolute; left: 50%; transform: translateX(-50%); }
+.logo { height: 32px; }
+.countdownWrapper { background-color: color-mix(in srgb, var(--color-bg) 80%, transparent); backdrop-filter: blur(4px); padding: var(--space-2) var(--space-4); border-radius: var(--radius-pill); font-size: 1.5rem; }
+.content { flex: 1; position: relative; z-index: var(--z-stage); }

@@ -1,0 +1,2 @@
+import { Slide01 } from './Slide01'; import { Slide02 } from './Slide02'; import { Slide03 } from './Slide03'; import { Slide04 } from './Slide04'; import { Slide05 } from './Slide05';
+export const SLIDES = [ { id: 'intro', title: 'Intro', component: Slide01 }, { id: 'problem', title: 'Il Problema', component: Slide02 }, { id: 'solution', title: 'La Soluzione', component: Slide03 }, { id: 'game-intro', title: 'Modalità Gioco', component: Slide04 }, { id: 'outro', title: 'Grazie', component: Slide05 } ];

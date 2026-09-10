@@ -1,0 +1,1 @@
+.overlay { position: fixed; inset: 0; z-index: var(--z-overlay); background-color: color-mix(in srgb, var(--color-bg) 95%, transparent); backdrop-filter: blur(8px); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: var(--space-8); }

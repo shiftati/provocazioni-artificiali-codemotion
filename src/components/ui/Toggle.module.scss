@@ -1,0 +1,9 @@
+@use "../../styles/mixins" as *;
+.segmentedControl { display: inline-flex; background-color: var(--color-surface); border-radius: var(--radius-pill); padding: 4px; gap: 4px; }
+.option {
+  border: none; background: transparent; color: var(--color-text-muted); padding: var(--space-2) var(--space-6);
+  border-radius: var(--radius-pill); font-family: var(--font-display); font-weight: 700; cursor: pointer; transition: all var(--duration-fast) var(--ease);
+  &:hover:not(.active) { color: var(--color-text); }
+  &.active { background-color: var(--color-surface-raised); color: var(--color-text); box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+  &:focus-visible { @include focus-ring; }
+}

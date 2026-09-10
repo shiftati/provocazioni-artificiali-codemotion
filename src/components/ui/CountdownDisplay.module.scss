@@ -1,0 +1,4 @@
+.countdown { font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-weight: 700; line-height: 1; transition: color var(--duration-base) var(--ease); }
+.normal { color: var(--color-text); }
+.warning { color: var(--color-warning); }
+.danger { color: var(--color-danger); }

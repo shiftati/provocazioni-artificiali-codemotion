@@ -1,0 +1,9 @@
+@use "../../styles/mixins" as *;
+.timeInput {
+  display: inline-flex; align-items: center;
+  input[type="time"] {
+    background-color: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-border);
+    border-radius: var(--radius-md); padding: var(--space-3) var(--space-4); font-family: var(--font-mono); font-size: 1.5rem; color-scheme: dark;
+    &:focus-visible { @include focus-ring; }
+  }
+}

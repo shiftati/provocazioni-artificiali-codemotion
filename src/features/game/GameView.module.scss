@@ -1,0 +1,9 @@
+.container { width: 100%; height: 100%; position: relative; background-color: var(--color-bg); }
+.centerContent { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: var(--space-8); z-index: 2; }
+.title { font-family: var(--font-display); font-size: clamp(3rem, 5vw, 4.5rem); color: var(--color-text); margin-bottom: var(--space-8); text-align: center; }
+.giantTimer { font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-size: clamp(8rem, 20vw, 15rem); font-weight: bold; line-height: 1; color: var(--color-text); margin-bottom: var(--space-8); &.warning { color: var(--color-warning); } &.danger { color: var(--color-danger); } }
+.controls { display: flex; gap: var(--space-4); align-items: center; margin-top: var(--space-8); }
+.provocationContainer { position: absolute; inset: 0; z-index: 1; }
+.overlayControls { position: absolute; bottom: var(--space-8); left: 0; right: 0; display: flex; justify-content: center; gap: var(--space-4); z-index: 10; }
+.statsBar { position: absolute; top: var(--space-4); left: var(--space-6); z-index: 10; display: flex; align-items: center; gap: var(--space-4); }
+.playButton { width: 120px; height: 120px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background-color: var(--color-accent); color: var(--color-accent-contrast); border: none; cursor: pointer; transition: transform var(--duration-base) var(--ease), background-color var(--duration-fast) var(--ease); svg { width: 60px; height: 60px; margin-left: 8px; } &:hover { transform: scale(1.1); background-color: var(--color-accent-hover); } }

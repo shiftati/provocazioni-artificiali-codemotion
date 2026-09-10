@@ -1,0 +1,11 @@
+@use "../../styles/mixins" as *;
+.iconButton {
+  display: inline-flex; align-items: center; justify-content: center; border: none; background: transparent;
+  color: var(--color-text); border-radius: var(--radius-pill); cursor: pointer;
+  transition: background-color var(--duration-fast) var(--ease), color var(--duration-fast) var(--ease); padding: var(--space-2);
+  &:hover:not(:disabled) { background-color: var(--color-surface); }
+  &:focus-visible { @include focus-ring; }
+  &:disabled { opacity: 0.5; cursor: not-allowed; }
+}
+.md { font-size: 1.5rem; width: 2.5rem; height: 2.5rem; }
+.lg { font-size: 2rem; width: 3.5rem; height: 3.5rem; }
