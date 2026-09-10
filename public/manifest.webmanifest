@@ -1,24 +1,24 @@
 {
-  "name": "Codemotion App",
-  "short_name": "Talk",
-  "start_url": "./",
+  "name": "Provocazioni Artificiali",
+  "short_name": "Provocazioni",
+  "start_url": "/provocazioni-artificiali-codemotion/",
   "display": "fullscreen",
   "orientation": "landscape",
   "background_color": "#0E1E30",
   "theme_color": "#FF5C00",
   "icons": [
     {
-      "src": "./icons/icon-192.png",
+      "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "./icons/icon-512.png",
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "./icons/maskable.png",
+      "src": "icons/maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

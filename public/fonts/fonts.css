@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'I B M Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./IBMPlexMono-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'I B M Plex Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./IBMPlexMono-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'I B M Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./IBMPlexSans-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'I B M Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./IBMPlexSans-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./Roboto-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./Roboto-700.woff2') format('woff2');
+}
